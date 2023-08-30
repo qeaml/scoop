@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "description": "Decide For Me",
+    "homepage": "https://github.com/qeaml/ddd",
+    "license": "BSD-3-Clause",
+    "bin": "ddd.exe",
+    "url": "https://github.com/qeaml/ddd/releases/download/v1.0.0/ddd-1.0.0-win32.7z",
+    "autoupdate": {
+        "url": "https://github.com/qeaml/ddd/releases/download/v$version/ddd-$version-win32.7z"
+    },
+    "checkver": "github"
+}
